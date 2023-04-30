@@ -62,11 +62,13 @@ a {
 
 .btn-content {
     display: flex;
+    align-items: center;
 }
 
 .btn {
     line-height: 24px;
     transition-duration: 0.2s;
+    cursor: pointer;
 }
 
 .btn-hover:hover {
@@ -128,6 +130,15 @@ a {
     color: var(--not-quite-black);
     font-size: 14px;
     line-height: 24px;
+    margin-right: 16px;
+}
+
+.toggle-button {
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 40px;
 }
 
 .hero-section {
@@ -365,4 +376,24 @@ a {
 
 .btn-brand:hover {
     background-color: var(--brand-off);
+}
+
+.btn-sign-up {
+    display: flex;
+    padding: 7px 16px;
+    background-color: white;
+    border-radius: 40px;
+    color: var(--not-quite-black);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-list {
+        display: none;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
 }
