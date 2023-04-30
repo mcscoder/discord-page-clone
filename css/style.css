@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Whitney Light";
-    src: url("/assets/fonts/whitneylight.woff") format("woff");
+    src: url("../assets/fonts/whitneylight.woff") format("woff");
 }
 
 @font-face {
     font-family: "Whitney Medium";
-    src: url("/assets/fonts/whitneymedium.woff") format("woff");
+    src: url("../assets/fonts/whitneymedium.woff") format("woff");
 }
 
 @font-face {
     font-family: "Whitney Bold";
-    src: url("/assets/fonts/whitneybold.woff") format("woff");
+    src: url("../assets/fonts/whitneybold.woff") format("woff");
 }
 
 :root {
@@ -78,7 +78,7 @@ a {
 }
 
 .hero {
-    background: url("/assets/images/hero-bg.jpg");
+    background: url("../assets/images/hero-bg.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
